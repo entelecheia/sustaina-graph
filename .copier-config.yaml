@@ -1,0 +1,31 @@
+# Changes here will be overwritten by Copier; do NOT edit manually
+_commit: v0.8.0
+_src_path: gh:entelecheia/hyperfast-template
+author: Young Joon Lee
+build_and_release: true
+copyright_year: 2023
+dist_path: dist
+documentation_url: https://sustaina-graph.entelecheia.ai
+email: entelecheia@hotmail.com
+favicon_path: https://assets.entelecheia.ai/favicon.png
+friendly_name: SustainaGraph
+github_repo_name: sustaina-graph
+github_username: entelecheia
+google_analytics_id: G-SY9MF3HBFB
+logo_path: https://assets.entelecheia.ai/logo.png
+project_description: 'SustainaGraph is an interactive network visualization website
+    created to provide a visual exploration of the evolution of corporate sustainability
+    research spanning from 1973 to 2019. This project is based on a scientometric
+    analysis of 26,111 Web of Science articles, encapsulating the continuous development
+    and shifts in the conceptual foundations of corporate sustainability over 47 years.
+    The visualization segments the research evolution into four major periods: the
+    Dawn of Diverse Ideas (1979-2005), the Rise of Conceptual Frameworks (2006-2011),
+    the Era of Heterogeneity (2012-2015), and the Age of Stakeholder Engagement (2016-2019).'
+project_license: MIT
+project_name: sustaina-graph
+project_short_description: A visual exploration of the evolution of corporate sustainability
+    research spanning from 1973 to 2019.
+upload_to_release: true
+upload_to_repository: false
+use_source_code_skeleton: true
+

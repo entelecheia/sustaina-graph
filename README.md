@@ -1,5 +1,22 @@
 # SustainaGraph
 
+[![version-image]][release-url]
+[![release-date-image]][release-url]
+[![license-image]][license-url]
+
+<!-- Links: -->
+[license-image]: https://img.shields.io/github/license/entelecheia/sustaina-graph
+[license-url]: https://github.com/entelecheia/sustaina-graph/blob/main/LICENSE
+[version-image]: https://img.shields.io/github/v/release/entelecheia/sustaina-graph?sort=semver
+[release-date-image]: https://img.shields.io/github/release-date/entelecheia/sustaina-graph
+[release-url]: https://github.com/entelecheia/sustaina-graph/releases
+
+[repo-url]: https://github.com/entelecheia/sustaina-graph
+[docs-url]: https://sustaina-graph.entelecheia.ai
+[changelog]: https://github.com/entelecheia/sustaina-graph/blob/main/CHANGELOG.md
+[contributing guidelines]: https://github.com/entelecheia/sustaina-graph/blob/main/CONTRIBUTING.md
+<!-- Links: -->
+
 ## Project Overview
 
 SustainaGraph is an interactive network visualization website created to provide a visual exploration of the evolution of corporate sustainability research spanning from 1973 to 2019. This project is based on a scientometric analysis of 26,111 Web of Science articles, encapsulating the continuous development and shifts in the conceptual foundations of corporate sustainability over 47 years. The visualization segments the research evolution into four major periods: the Dawn of Diverse Ideas (1979-2005), the Rise of Conceptual Frameworks (2006-2011), the Era of Heterogeneity (2012-2015), and the Age of Stakeholder Engagement (2016-2019).
@@ -40,11 +57,11 @@ The application will be running on `http://localhost:3000`.
 
 ## Contributing
 
-We welcome contributions to SustainaGraph! Please see our [Contributing Guidelines](CONTRIBUTING.md) for more details.
+We welcome contributions to SustainaGraph! Please see our [contributing guidelines] for more details.
 
 ## License
 
-SustainaGraph is licensed under the [MIT License](LICENSE.md).
+SustainaGraph is licensed under the [MIT License][license-url].
 
 ## Acknowledgements
 
