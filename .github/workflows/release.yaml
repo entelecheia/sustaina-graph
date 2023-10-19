@@ -6,13 +6,12 @@
     workflow_dispatch:
     push:
       branches:
-        - main
-        - beta
+        - release*
+        - beta*
       paths:
         - 'src/**'
         - 'static/**'
         - 'package.json'
-        - '.copier-template/**'
   
   permissions:
     contents: write
@@ -25,7 +24,7 @@
       runs-on: ubuntu-latest
       steps:
         - name: Checkout
-          uses: actions/checkout@v3
+          uses: actions/checkout@v4
   
         - name: Setup Node.js
           uses: actions/setup-node@v3
