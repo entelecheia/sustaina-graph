@@ -31,50 +31,48 @@ SustainaGraph is an interactive network visualization website created to provide
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/entelecheia/sustaina-graph.git
-```
+    ```bash
+    git clone https://github.com/entelecheia/sustaina-graph.git
+    ```
 
 2. Navigate to the project directory:
 
-```bash
-cd sustaina-graph
-```
+    ```bash
+    cd sustaina-graph
+    ```
 
 3. Install dependencies:
 
-```bash
-npm install
-```
+    ```bash
+    npm install
+    ```
 
 4. Run the project:
 
-```bash
-npm start
-```
+    ```bash
+    npm start
+    ```
 
-The application will be running on `http://localhost:3000`.
+    The application will be running on `http://localhost:3000`.
 
 5. Test the project:
 
-```bash
-npm test
-```
+    ```bash
+    npm test
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://create-react-app.dev/docs/running-tests/) for more information.
+    Launches the test runner in the interactive watch mode.\
+    See the section about [running tests](https://create-react-app.dev/docs/running-tests/) for more information.
 
-1. Build the project:
+6. Build the project:
 
-```bash
-npm run build
-```
+    ```bash
+    npm run build
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    The build is minified and the filenames include the hashes. Your app is ready to be deployed!
 
 ## Changelog
 
