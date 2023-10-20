@@ -55,6 +55,32 @@ npm start
 
 The application will be running on `http://localhost:3000`.
 
+5. Test the project:
+
+```bash
+npm test
+```
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://create-react-app.dev/docs/running-tests/) for more information.
+
+1. Build the project:
+
+```bash
+npm run build
+```
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+## Changelog
+
+See the [CHANGELOG] for more information.
+
+
 ## Contributing
 
 We welcome contributions to SustainaGraph! Please see our [contributing guidelines] for more details.

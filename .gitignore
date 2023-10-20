@@ -3,3 +3,8 @@ node_modules/
 
 # mkdocs
 site/
+
+# build
+build/
+
+Makefile

@@ -37,6 +37,12 @@ verify-release: ## verify release
 build: ## build the project
 	@npm run build
 
+start: ## start the project
+	@npm run start
+
+test: ## run tests
+	@npm test
+
 ##@ Setup
 
 install: ## install dependencies
