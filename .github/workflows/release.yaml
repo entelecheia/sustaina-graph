@@ -1,6 +1,6 @@
 ---
   name: Release
-  
+
   on:
     workflow_call:
     workflow_dispatch:
@@ -10,14 +10,14 @@
         - beta*
       paths:
         - 'src/**'
-        - 'static/**'
+        - 'public/**'
         - 'package.json'
-  
+
   permissions:
     contents: write
     issues: write
     pull-requests: write
-  
+
   jobs:
     release:
       name: Release
@@ -25,19 +25,19 @@
       steps:
         - name: Checkout
           uses: actions/checkout@v4
-  
+
         - name: Setup Node.js
           uses: actions/setup-node@v3
           with:
             node-version: 'lts/*'
-  
+
         - name: Install dependencies
           run: npm ci
-  
+
         - name: Semantic release
           id: semantic_release
           run: npx semantic-release
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-  
+
